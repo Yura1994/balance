@@ -1,0 +1,25 @@
+<!-- Запросите у пользователя трехзначное число и выведите
+его задом наперед. Для решения задачи вам понадобится
+оператор % (остаток от деления). -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ch = prompt("Укажите трехзначное число ");
+        
+            let a = ch%10;
+        let b = (ch/10)%10;
+        let c = (ch/100)%10;
+        alert("Выше число: "+ ch +" обратно:  "+ Math.trunc(a) +" "+ Math.trunc(b) + " "+ Math.trunc(c));
+
+
+
+
+    </script>
+</body>
+</html>
